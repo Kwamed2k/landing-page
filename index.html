@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="hero">
+    <div class="hero"> <!--Represents "header"-->
         <div class="upper-container">
-            <div class="logo">Header Logo</div>
+            <div class="logo">Header Logo</div> <!--Represents "hero logo"-->
             <ul>
                 <li><a href="#">header link one</a></li>
                 <li><a href="#">header link two</a></li>
@@ -19,49 +19,63 @@
         </div>
         <div class="lower-container">
             <div class="left">
-                <div class="hero-main-taxt">This website is awesome</div>
+                <div class="hero-main-text">This website is awesome</div>
                 <div class="hero-secondary-text">This website has some
                     subtext that goes here under the main
                     title. It's a smaller font and
                     color is lower contrast</div>
-                <a href="#">Sign up</a>
+                    <button>Sign up</button>
             </div>
             <div class="right">
-                <img src="./images/logo.png" alt="TOP Logo">
+                <div class="profile-image-holder">This is a place holder for an image</div>
             </div>
         </div>
     </div>
     <div class="body">
         <div class="info-header">Our Services</div>
-        <div class="images">
-            <ul>
-                <li><img src="images/logo.png" alt="Bookkeeping"></li>
-                <li><img src="images/logo.png" alt="Bookkeeping"></li>
-                <li><img src="images/logo.png" alt="Bookkeeping"></li>
-                <li><img src="images/logo.png" alt="Bookkeeping"></li>
-            </ul>
+        <div class="info-container">
+            <div class="info">
+                <img src="images/logo.png" alt="Bookkeeping">
+                <div class="info-text">Bookkeeping</div>
+            </div>    
+            <div class="info">
+                <img src="images/logo.png" alt="Online Lottery">
+                <div class="info-text">Online Lottery</div>
+            </div>
+            <div class="info">
+                <img src="images/logo.png" alt="Chatbot">
+                <div class="info-text">Chatbot</div>
+            </div>
+            <div class="info">
+                <img src="images/logo.png" alt="E-charging">
+                <div class="info-text">E-charging</div>
+            </div>
         </div>
         <div class="quote">
-            <p>This is an inspiring quote, or a
+            <div class="text-1">This is an inspiring quote, or a
             testimonial from a customer. May be it's just
             filing up space, or may be people will actually
             read it. Who knows? All I know is that it looks
-            nice.</p>
-            <p>                   -Thor, God of Thunder</p>
+            nice.</div>
+            <div class="end">-Thor, God of Thunder</div>
         </div>
         <div class="container">
             <div class="call-to-action">
-                <div class="text">
-                    <p><strong>Call to action! It's time!</strong></p>
-                    <p>Sign up for our product by clicking that button
-                        right over there!</p>
+                <div class="action-text-left">
+                    <div class="action-header">
+                        Call to action! It's time!
+                    </div>
+                    <div class="action-content">
+                        Sign up for our product by clicking right over there!
+                    </div>
                 </div>
-                <div class="button">
-                    <button>Sign up</button>
-                </div>
+                <button>Sign up</button>
             </div>
         </div>
     </div>
     <div class="footer">Copyright © The Odin Project 2021</div>
   </body>
 </html>
+
+<!--Represents "update: change <p> to <P1> and <p2> in quote class"-->
+
